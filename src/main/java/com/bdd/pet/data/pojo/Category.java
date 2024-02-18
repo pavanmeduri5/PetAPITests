@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class Category {
-    private int id;
+    private long id;
     private String name;
 
 }

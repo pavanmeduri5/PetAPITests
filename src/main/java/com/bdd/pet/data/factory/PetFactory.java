@@ -26,7 +26,7 @@ public class PetFactory {
         pet = new PetBuilder()
                 .id(faker.random().nextLong(1000))
                 .category(new
-                        Category(faker.random().nextInt(1000, 1500),
+                        Category(faker.random().nextLong(3000),
                         faker.dog().breed())
                 )
                 .name(faker.dog().name())
